@@ -1,13 +1,38 @@
 #+TITLE: git tutorial
 
+* lista opzioni: git help --all
+
 * crea una directory e vai al suo interno
-
-* inizializzala
-git init
-
+  
+* inizializzala: git init
+  
 * crea un file
+touch git.org
 
-* controlla lo stato
-git status
+* controlla lo stato: git status
+
+* aggiungilo alla list dei files staged: git add git.org
+o anche
+git add --all
+ 
+* controlla lo stato: git status --short
+
+* fai il commit: git commit -m 'commento'
+** per evitare lo staging (git add)
+git commit -a -m 'commento'
+
+* verifica la storia dei commit: git log
+
+* crea un branch: git branch nuovo
 
 
+* verifica di averlo creato: git branch
+
+* spostati nel nuovo branch: git checkout nuovo
+** se vuoi crearlo direttamente: git checkout -b nuovo 
+
+* verifica di esserti spostato: git branch
+
+* per fare il merge:
+** crea un altro branch: git checkout -b secondo
+** modifica il file nel branch secondo
