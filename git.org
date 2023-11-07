@@ -24,7 +24,6 @@ git commit -a -m 'commento'
 * verifica la storia dei commit: git log
 
 * crea un branch: git branch nuovo
-<<<<<<< HEAD
 
 
 * verifica di averlo creato: git branch
@@ -42,6 +41,13 @@ git commit -a -m 'commento'
 ** torna nel master: git checkout master
 ** modifica git.org
 ** fanne il commit (su master)
-=======
->>>>>>> secondo
+** prova a fare il merge: git merge secondo
+** fai una copia della versione su master: git stash
+** riprova a fare il merge: git merge secondo
+** editalo e risolvi i conflitti
+** fanne lo stage: git add git.org
+** fai il commit: git commit -m 'fixed'
+** concludi il merge: git merge secondo
+** elimina il vecchio branch: git branch -d secondo
+** DA TOGLIERE
 
