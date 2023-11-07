@@ -1,0 +1,13 @@
+#+TITLE: git tutorial
+
+* crea una directory e vai al suo interno
+
+* inizializzala
+git init
+
+* crea un file
+
+* controlla lo stato
+git status
+
+
