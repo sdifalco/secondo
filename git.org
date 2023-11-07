@@ -49,5 +49,6 @@ git commit -a -m 'commento'
 ** fai il commit: git commit -m 'fixed'
 ** concludi il merge: git merge secondo
 ** elimina il vecchio branch: git branch -d secondo
-** SECONDO CONFLITTO
+** TERZO CONFLITTO
+
 
