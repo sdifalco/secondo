@@ -24,6 +24,7 @@ git commit -a -m 'commento'
 * verifica la storia dei commit: git log
 
 * crea un branch: git branch nuovo
+<<<<<<< HEAD
 
 
 * verifica di averlo creato: git branch
@@ -41,5 +42,6 @@ git commit -a -m 'commento'
 ** torna nel master: git checkout master
 ** modifica git.org
 ** fanne il commit (su master)
-
+=======
+>>>>>>> secondo
 
