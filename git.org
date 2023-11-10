@@ -50,5 +50,8 @@ git commit -a -m 'commento'
 ** concludi il merge: git merge secondo
 ** elimina il vecchio branch: git branch -d secondo
 ** QUINTO CONFLITTO
+** QUARTO CONFLITTO
+
+* aggiungi a github:  git remote add origin URL
 
 
